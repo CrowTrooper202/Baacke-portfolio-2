@@ -7,8 +7,8 @@ import Card from './Card';
 return (
     <Container>
         <Row>
-            <Col>
-            <Card>
+            <Col size='md-4'>
+            <Card Heading = ''>
 
             </Card>
             </Col>
