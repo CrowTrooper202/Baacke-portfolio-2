@@ -4,16 +4,19 @@ import Row from './Row';
 import Col from './Col';
 import Card from './Card';
 
-return (
+const portfolioContainer =() =>{
+return(
     <Container>
         <Row>
             <Col size='md-4'>
-            <Card Heading = ''>
+            <Card Heading = 'Text Editor'>
+
 
             </Card>
             </Col>
         </Row>
     </Container>
 )
+}
 
-export default portfolioApps;
+export default portfolioContainer;
