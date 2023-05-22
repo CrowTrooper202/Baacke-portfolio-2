@@ -3,6 +3,7 @@ import Container from './Container';
 import Row from './Row';
 import Col from './Col';
 import Card from './Card';
+import appDetails from './appDetails';
 
 const portfolioContainer =() =>{
 return(
@@ -10,8 +11,7 @@ return(
         <Row>
             <Col size='md-4'>
             <Card Heading = 'Text Editor'>
-
-
+                <appDetails/>
             </Card>
             </Col>
         </Row>
