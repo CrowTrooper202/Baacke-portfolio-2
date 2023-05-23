@@ -1,6 +1,6 @@
 import React from 'react'
 
-function appDetails(props){
+function Project(){
     return(
         <div className='text-center'>
             <image
@@ -15,4 +15,4 @@ function appDetails(props){
     )
 }
 
-export default appDetails
+export default Project
