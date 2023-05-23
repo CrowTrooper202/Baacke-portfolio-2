@@ -1,8 +1,8 @@
 
-import portfolioApps from './components/portfolioApps';
+import PortfolioContainer from './components/PortfolioContainer';
 
 export default function App() {
-  // return <portfolioApps />
-  return <h1>hello world</h1>
+  return <PortfolioContainer />
+  // return <h1>hello world</h1>
 }
 

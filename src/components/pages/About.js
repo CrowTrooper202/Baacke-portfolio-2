@@ -1,9 +1,11 @@
 import React from "react";
+import selfie from '../utils/photos/crowCreek1.jpg'
 
 export default function About(){
     return(
         <section>
             <h1> About me</h1>
+            <img src = {selfie} alt="Selfie" width={200}/>
             <p>
             Highly capable Non-Commissioned Officer (NCO) with recognized competencies in both oral and written
 communications. Effective multi-tasker who is highly familiar with modern project management
