@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Project({ projObj }) {
-    const { title, description, imageUrl } = projObj;
+    const { title, description, imageUrl, gitHub,demo } = projObj;
 
     return (
         <div className='text-center'>
@@ -11,9 +11,9 @@ function Project({ projObj }) {
                 src={imageUrl}
                 style={{ margin: '0 auto' }}
             />
-            <a href='https://github.com/CrowTrooper202/text-editor-pwa'>{title}</a>
+            <a href={gitHub}>{title}</a>
             <p>{description}</p>
-            <a href=' https://pure-garden-53924.herokuapp.com/'> deployed application</a>
+            <a href={demo}> deployed application</a>
         </div>
     )
 }
