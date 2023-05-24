@@ -20,7 +20,7 @@ function Footer() {
                 <a href ='www.linkedin.com/in/adam-baacke-1a3454253'>LinkedIn</a> 
                 </li>
             <li>
-                <a href='https://twitter.com/IGuard202'> InstaGram</a> 
+                <a href='https://twitter.com/IGuard202'> Twitter</a> 
                 </li>
             </ul> 
         </footer>

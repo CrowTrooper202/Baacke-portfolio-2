@@ -1,15 +1,18 @@
 import React from 'react'
 
-function Project(){
-    return(
+function Project({ projObj }) {
+    const { title, description, imageUrl } = projObj;
+
+    return (
         <div className='text-center'>
-            <image
-            alt='text editot'
-            className='img-fluid'
-            src='./utils/photos/jate-pwa.png'
-            style={{margin:'0 auto'}}/>
-            <a href='https://github.com/CrowTrooper202/text-editor-pwa'>Text Editor</a>
-            <p>demos progressive web application</p>
+            <img
+                alt='text editor'
+                className='img-fluid'
+                src={imageUrl}
+                style={{ margin: '0 auto' }}
+            />
+            <a href='https://github.com/CrowTrooper202/text-editor-pwa'>{title}</a>
+            <p>{description}</p>
             <a href=' https://pure-garden-53924.herokuapp.com/'> deployed application</a>
         </div>
     )
