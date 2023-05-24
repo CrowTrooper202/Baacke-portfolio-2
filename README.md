@@ -24,6 +24,7 @@
 the page uses links at the top pf the page for easy navigation.
 
 ![portfolio screenshot](./src/components/utils/photos/Portfolio2.PNG)
+[Deployed Link](https://crowtrooper202.github.io/Baacke-portfolio-2/#about )
 
 
 
