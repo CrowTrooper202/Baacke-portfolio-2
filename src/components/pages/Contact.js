@@ -1,53 +1,55 @@
-import React, {useState} from 'react';
-import {validateEmail} from '../utils/helpers/helpers'
+import React, { useState } from 'react';
+import { validateEmail } from '../utils/helpers/helpers'
 
 export default function Contact() {
-    const [email, setEmail] = useState('');
-    const [name, setName] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
-    const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const [message, setMessage] = useState('')
 
-    const handleInputChange = (e) => {
-        
-        const { target } = e;
-        const inputType = target.name;
-        const inputValue = target.value;
+  const handleInputChange = (e) => {
 
-        if (inputType === 'email') {
-            setEmail(inputValue);
-          } else if (inputType === 'name') {
-            setName(inputValue);
-          } 
-        };
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
 
-    const handleFormSubmit =(e)=>{
-        e.preventDefault();
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'name') {
+      setName(inputValue);
+    } else if(inputType==='message') {
+      setMessage(inputValue)
+    }
+  };
 
-        if (!validateEmail(email) || !name) {
-            setErrorMessage('Email or Name is needed');
-            
-            return;
-            
-          }
-          alert(`hello ${name}`)
-          
-          setName('');
-          setEmail('');
-          setMessage('');
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email) || !name) {
+      setErrorMessage('Email or Name is needed');
+
+      return;
 
     }
-    return(
+    alert(`hello ${name}`)
+
+    setName('');
+    setEmail('');
+    setMessage('');
+
+  }
+  return (
     <section>
-        <h1>drop me a message!</h1>
-        <p>Hello {name}</p>
-        <form className='form'>
+      <h1>drop me a message!</h1>
+      <p>Hello {name}</p>
+      <form className='form'>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
-        /> 
+        />
         <input
           value={email}
           name="email"
@@ -55,17 +57,22 @@ export default function Contact() {
           type="email"
           placeholder="email"
         />
-         <label>
+        <label>
           message:
-          <textarea value={message} onChange={handleInputChange} />
+          <textarea 
+          value={message} 
+          onChange={handleInputChange} 
+          name='message'
+          type='message'
+          />
         </label>
         <button type="button" onClick={handleFormSubmit}>Submit</button>
-        </form>
-        {errorMessage && (
+      </form>
+      {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
     </section>
-    )
+  )
 }
