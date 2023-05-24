@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Baacke-portfolio-2/static/css/main.c2cab247.css",
+    "main.js": "/Baacke-portfolio-2/static/js/main.ea105f17.js",
+    "static/js/787.b3a4c803.chunk.js": "/Baacke-portfolio-2/static/js/787.b3a4c803.chunk.js",
+    "static/media/horiseon_screenshot.PNG": "/Baacke-portfolio-2/static/media/horiseon_screenshot.57e17827da016cfce559.PNG",
+    "pdf.worker.js": "/Baacke-portfolio-2/299ae4f28232330899fe63845932378d.js",
+    "static/media/jate-pwa.PNG": "/Baacke-portfolio-2/static/media/jate-pwa.c64ca589ab820abdb1de.PNG",
+    "static/media/project-screenshot-2.png": "/Baacke-portfolio-2/static/media/project-screenshot-2.4097a592ef86884a89d9.png",
+    "static/media/avalon-social.PNG": "/Baacke-portfolio-2/static/media/avalon-social.629964303f5ab730ec9a.PNG",
+    "static/media/crowCreek1.jpg": "/Baacke-portfolio-2/static/media/crowCreek1.3900a84ef40f53c02242.jpg",
+    "static/media/day-scheduler.PNG": "/Baacke-portfolio-2/static/media/day-scheduler.291a16c47e8d14601c48.PNG",
+    "static/media/Resume.pdf": "/Baacke-portfolio-2/static/media/Resume.969fad38763771b936cd.pdf",
+    "static/media/Note_taker.PNG": "/Baacke-portfolio-2/static/media/Note_taker.6eb6b88b51e5fdb2a859.PNG",
+    "index.html": "/Baacke-portfolio-2/index.html",
+    "main.c2cab247.css.map": "/Baacke-portfolio-2/static/css/main.c2cab247.css.map",
+    "main.ea105f17.js.map": "/Baacke-portfolio-2/static/js/main.ea105f17.js.map",
+    "787.b3a4c803.chunk.js.map": "/Baacke-portfolio-2/static/js/787.b3a4c803.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.ea105f17.js"
+  ]
+}
