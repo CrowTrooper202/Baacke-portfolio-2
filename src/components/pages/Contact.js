@@ -25,9 +25,9 @@ export default function Contact() {
 
         if (!validateEmail(email) || !name) {
             setErrorMessage('Email or Name is needed');
-            // We want to exit out of this code block if something is wrong so that the user can correct it
+            
             return;
-            // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+            
           }
           alert(`hello ${name}`)
           

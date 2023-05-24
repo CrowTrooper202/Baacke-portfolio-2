@@ -87,13 +87,6 @@ export default function Portfolio() {
                         })
                     }
 
-
-                    {/* <Col size='md-4'>
-
-                        <Card Heading='Text Editor'>
-                            <Project />
-                        </Card>
-                    </Col> */}
                 </Row>
             </Container>
         </section>
