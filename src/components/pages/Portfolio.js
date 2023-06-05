@@ -9,7 +9,7 @@ import proj2Img from '../utils/photos/avalon-social.PNG'
 import proj3Img from '../utils/photos/day-scheduler.PNG'
 import proj4Img from '../utils/photos/project-screenshot-2.png'
 import proj5Img from '../utils/photos/Note_taker.PNG'
-import proj6Img from "../utils/photos/horiseon_screenshot.PNG";
+import proj6Img from "../utils/photos/project3.PNG";
 
 const gitLink1 = 'https://github.com/CrowTrooper202/text-editor-pwa'
 const demo1 = 'https://pure-garden-53924.herokuapp.com/'
@@ -21,8 +21,8 @@ const gitLink4='https://github.com/CrowTrooper202/p1-national-parks-locator'
 const demo4='https://crowtrooper202.github.io/p1-national-parks-locator/'
 const gitLink5='https://github.com/CrowTrooper202/note-taker'
 const demo5='https://quiet-inlet-16002.herokuapp.com/'
-const gitLink6='https://github.com/CrowTrooper202/horiseon-accessibility-recode'
-const demo6='https://crowtrooper202.github.io/horiseon-accessibility-recode/'
+const gitLink6='https://github.com/CrowTrooper202/CamarcoConsulting'
+const demo6='https://fierce-bayou-97407.herokuapp.com/'
 
 export default function Portfolio() {
 
@@ -63,8 +63,8 @@ export default function Portfolio() {
             demo: demo5
         },
         {
-            title: "Horiseon Splash Page",
-            description: "demo of HTML and CSS debugging",
+            title: "Camarco Consulting",
+            description: "demo for MERN full-stack application",
             imageUrl: proj6Img,
             gitHub: gitLink6,
             demo: demo6
